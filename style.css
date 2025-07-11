@@ -71,3 +71,43 @@ header{
     height: 328px;
 
 }
+.productive-title h2{
+    font-size: 38px;
+    font-weight: bold;
+     font-family: Raleway;
+     color: #252432;
+     text-align: center;
+    
+    }
+.productive-title{
+    margin-bottom: 40px;
+}
+.productive-user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.productive-user-section{
+    background-color:#BC47FF1A;
+    padding: 50px 80px;
+     margin-top: 100px;
+     border-radius: 24px;
+     width: 80%;
+     margin: auto;
+  
+}
+.user h1{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: Inter ;
+    margin-bottom: 0px;
+}
+.user p{
+    font-size: 20px;
+    color: #00000080;
+     font-family: Inter ;
+     
+}
+
