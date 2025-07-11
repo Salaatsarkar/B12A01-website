@@ -1,3 +1,10 @@
+body{
+    background-color:#FFFFFF80 ;
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .heading h2{
     color: #4E47FF;
     font-size:34;
@@ -139,7 +146,7 @@ header{
     border: 1px solid #F2EDED;
 }
 .review-section{
-    width: 80%;
+    width: 90%;
     margin: 100px auto;
 }
 .name-parent{
@@ -177,4 +184,31 @@ header{
 }
 .review-text p,h4{
     color: #1E1E1E;
+}
+.focus-section{
+   background-color:#FFFFFF ;
+    padding: 71px 80px;
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 14px;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.05); */
+    border: 1px solid #F2EDED
+    }
+
+.focus-section h1,p,button{
+    margin-bottom: 20px;
+}
+.focus-section h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Raleway;
+    color:#000000 ;
+
+}
+.focus-section p{
+    color: #00000080;
+}
+.focus-section img{
+    border-radius: 48px;
 }
