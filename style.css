@@ -212,3 +212,54 @@ header{
 .focus-section img{
     border-radius: 48px;
 }
+.touch-section{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 100px auto;
+    padding: 71px 0px;
+}
+.title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Raleway;
+    width: 50%;
+    
+
+}
+.form-section{
+    width: 50%;
+
+}
+.form-section input[type="text"],input[type="email"],textarea{
+    width: 90%;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    display: block;
+    gap: 10px;
+   border: 1px solid #F2EDED;
+   margin-bottom:24px ;
+   margin-top: 10px;
+   
+}
+.form-section label{
+    color: #000000;
+    font-weight: medium;
+    font-size: 18px;
+    font-family: Inter;
+    
+
+}
+.form-section input[type="submit"]{
+    width: 90%;
+}
+input::placeholder{
+    color: #00000080;
+}
+textarea::placeholder{
+    color: #00000080;
+
+}
